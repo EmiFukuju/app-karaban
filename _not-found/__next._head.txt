@@ -3,6 +3,6 @@
 4:I[64381,["/app-karaban/_next/static/chunks/6e9ac5b86215ad1c.js","/app-karaban/_next/static/chunks/13879f7a2c80d4ab.js"],"MetadataBoundary"]
 5:"$Sreact.suspense"
 7:I[12843,["/app-karaban/_next/static/chunks/6e9ac5b86215ad1c.js","/app-karaban/_next/static/chunks/13879f7a2c80d4ab.js"],"IconMark"]
-0:{"buildId":"BbKf2U04LlNLvU_WTL2wp","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"Fd-9ZGLIgkNXZMY-Z1qUg","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":"$@3"}],["$","div",null,{"hidden":true,"children":["$","$L4",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":"$@6"}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"loading":null,"isPartial":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 6:[["$","title","0",{"children":"CaravanShare - 캠핑카 공유 플랫폼"}],["$","meta","1",{"name":"description","content":"유휴 카라반을 공유하고 특별한 여행을 경험하세요."}],["$","link","2",{"rel":"icon","href":"/app-karaban/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L7","3",{}]]
