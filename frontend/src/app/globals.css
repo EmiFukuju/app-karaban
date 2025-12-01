@@ -24,3 +24,71 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+/* globals.css 맨 아래에 추가 */
+
+/* 별이 반짝이는 애니메이션 */
+@keyframes move-twinkle {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-100px); opacity: 0.7; }
+}
+
+/* 배경 그라데이션 (우주 느낌) */
+.space-bg {
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  overflow: hidden;
+}
+
+/* 별 만들기 (box-shadow 방식 대신 가벼운 방식 사용) */
+.stars {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1744px 122px #FFF , 134px 1321px #FFF , 92px 859px #FFF, 1843px 329px #FFF, 823px 120px #FFF, 324px 239px #FFF, 423px 102px #FFF, 52px 923px #FFF, 234px 123px #FFF, 943px 1231px #FFF;
+  animation: move-twinkle 50s linear infinite;
+}
+
+.stars::after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 1744px 122px #FFF , 134px 1321px #FFF , 92px 859px #FFF, 1843px 329px #FFF, 823px 120px #FFF, 324px 239px #FFF, 423px 102px #FFF, 52px 923px #FFF, 234px 123px #FFF, 943px 1231px #FFF;
+}
+
+.stars2 {
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 532px 423px #FFF , 234px 842px #FFF , 923px 231px #FFF, 123px 1523px #FFF, 832px 423px #FFF;
+  animation: move-twinkle 100s linear infinite;
+}
+
+.stars2::after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 2px;
+  height: 2px;
+  background: transparent;
+  box-shadow: 532px 423px #FFF , 234px 842px #FFF , 923px 231px #FFF, 123px 1523px #FFF, 832px 423px #FFF;
+}
+
+.stars3 {
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 932px 231px #FFF , 123px 842px #FFF , 423px 123px #FFF;
+  animation: move-twinkle 150s linear infinite;
+}
+
+.stars3::after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 3px;
+  height: 3px;
+  background: transparent;
+  box-shadow: 932px 231px #FFF , 123px 842px #FFF , 423px 123px #FFF;
+}
